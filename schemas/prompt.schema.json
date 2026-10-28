@@ -1,0 +1,288 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BlackRoom IA UGC prompt",
+  "type": "object",
+  "required": [
+    "meta",
+    "character_lock",
+    "cena",
+    "iluminacao",
+    "perspectiva_da_camera",
+    "assunto",
+    "qualidade_da_imagem"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "aspect_ratio",
+        "quality",
+        "resolution",
+        "camera",
+        "lens",
+        "style"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "aspect_ratio": {
+          "type": "string"
+        },
+        "quality": {
+          "type": "string"
+        },
+        "resolution": {
+          "type": "string"
+        },
+        "camera": {
+          "type": "string"
+        },
+        "lens": {
+          "type": "string"
+        },
+        "style": {
+          "type": "string"
+        }
+      }
+    },
+    "character_lock": {
+      "type": "object",
+      "required": [
+        "identity_source",
+        "face_identity",
+        "regras_de_aparencia"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "identity_source": {
+          "type": "string"
+        },
+        "face_identity": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "regras_de_aparencia": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "cena": {
+      "type": "object",
+      "required": [
+        "local",
+        "ambiente",
+        "atmosfera"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "local": {
+          "type": "string"
+        },
+        "ambiente": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "atmosfera": {
+          "type": "string"
+        }
+      }
+    },
+    "iluminacao": {
+      "type": "object",
+      "required": [
+        "tipo",
+        "luz_principal",
+        "luz_de_preenchimento",
+        "contraste",
+        "evitar"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "tipo": {
+          "type": "string"
+        },
+        "luz_principal": {
+          "type": "string"
+        },
+        "luz_de_preenchimento": {
+          "type": "string"
+        },
+        "contraste": {
+          "type": "string"
+        },
+        "evitar": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "perspectiva_da_camera": {
+      "type": "object",
+      "required": [
+        "pov",
+        "angulo",
+        "distancia",
+        "visibilidade_do_celular"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "pov": {
+          "type": "string"
+        },
+        "angulo": {
+          "type": "string"
+        },
+        "distancia": {
+          "type": "string"
+        },
+        "visibilidade_do_celular": {
+          "type": "string"
+        }
+      }
+    },
+    "assunto": {
+      "type": "object",
+      "required": [
+        "genero_aparente",
+        "faixa_etaria_aparente",
+        "vibe",
+        "expressao",
+        "pose",
+        "roupa"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "genero_aparente": {
+          "type": "string"
+        },
+        "faixa_etaria_aparente": {
+          "type": "string"
+        },
+        "vibe": {
+          "type": "string"
+        },
+        "expressao": {
+          "type": "object",
+          "required": [
+            "olhos",
+            "boca",
+            "emocao_aparente"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "olhos": {
+              "type": "string"
+            },
+            "boca": {
+              "type": "string"
+            },
+            "emocao_aparente": {
+              "type": "string"
+            }
+          }
+        },
+        "pose": {
+          "type": "object",
+          "required": [
+            "position",
+            "apoio",
+            "mao"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "position": {
+              "type": "string"
+            },
+            "apoio": {
+              "type": "string"
+            },
+            "mao": {
+              "type": "string"
+            }
+          }
+        },
+        "roupa": {
+          "type": "object",
+          "required": [
+            "blusa",
+            "extra"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "blusa": {
+              "type": "object",
+              "required": [
+                "tipo",
+                "caimento",
+                "detalhes"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "tipo": {
+                  "type": "string"
+                },
+                "caimento": {
+                  "type": "string"
+                },
+                "detalhes": {
+                  "type": "string"
+                }
+              }
+            },
+            "extra": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "qualidade_da_imagem": {
+      "type": "object",
+      "required": [
+        "foco",
+        "granulacao",
+        "nitidez",
+        "realismo",
+        "artefatos_de_sensor",
+        "distorcao_de_lente",
+        "pos_processamento"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "foco": {
+          "type": "string"
+        },
+        "granulacao": {
+          "type": "string"
+        },
+        "nitidez": {
+          "type": "string"
+        },
+        "realismo": {
+          "type": "string"
+        },
+        "artefatos_de_sensor": {
+          "type": "string"
+        },
+        "distorcao_de_lente": {
+          "type": "string"
+        },
+        "pos_processamento": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

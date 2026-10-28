@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "aspect_ratio": "9:16",
+    "quality": "ultra_photorealistic",
+    "resolution": "8k",
+    "camera": "estética de câmera frontal de smartphone",
+    "lens": "perspectiva grande-angular aproximada",
+    "style": "fotografia UGC espontânea, realismo de smartphone, aparência não profissional, textura natural"
+  },
+  "character_lock": {
+    "identity_source": "",
+    "face_identity": [
+      "preservar características faciais visíveis da referência",
+      "preservar proporções faciais observáveis",
+      "manter assimetrias naturais",
+      "evitar alterações faciais não solicitadas",
+      "evitar aparência facial genérica"
+    ],
+    "regras_de_aparencia": [
+      "utilizar somente características sustentadas pela referência",
+      "não alterar características visíveis sem solicitação",
+      "incluir marcas e acessórios somente quando observáveis"
+    ]
+  },
+  "cena": {
+    "local": "",
+    "ambiente": [],
+    "atmosfera": ""
+  },
+  "iluminacao": {
+    "tipo": "",
+    "luz_principal": "",
+    "luz_de_preenchimento": "",
+    "contraste": "",
+    "evitar": [
+      "iluminação de estúdio não presente na referência",
+      "retoque excessivo",
+      "aparência artificial"
+    ]
+  },
+  "perspectiva_da_camera": {
+    "pov": "",
+    "angulo": "",
+    "distancia": "",
+    "visibilidade_do_celular": ""
+  },
+  "assunto": {
+    "genero_aparente": "não determinado",
+    "faixa_etaria_aparente": "não determinada",
+    "vibe": "",
+    "expressao": {
+      "olhos": "",
+      "boca": "",
+      "emocao_aparente": ""
+    },
+    "pose": {
+      "position": "",
+      "apoio": "",
+      "mao": ""
+    },
+    "roupa": {
+      "blusa": {
+        "tipo": "",
+        "caimento": "",
+        "detalhes": ""
+      },
+      "extra": []
+    }
+  },
+  "qualidade_da_imagem": {
+    "foco": "",
+    "granulacao": "",
+    "nitidez": "",
+    "realismo": "aparência de fotografia casual real",
+    "artefatos_de_sensor": "",
+    "distorcao_de_lente": "",
+    "pos_processamento": ""
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "aspect_ratio": "3:4",
+    "quality": "ultra_photorealistic",
+    "resolution": "not specified; output resolution depends on the generator",
+    "camera": "aparência de câmera de smartphone, sem modelo exato determinado",
+    "lens": "perspectiva ampla moderada, estimada",
+    "style": "selfie casual UGC, textura natural e processamento moderado"
+  },
+  "character_lock": {
+    "identity_source": "referência fornecida pelo usuário ao gerador; exemplo textual sintético",
+    "face_identity": [
+      "preservar características faciais visíveis da referência",
+      "preservar proporções faciais observáveis",
+      "manter assimetrias naturais",
+      "evitar alterações faciais não solicitadas",
+      "evitar aparência facial genérica"
+    ],
+    "regras_de_aparencia": [
+      "utilizar somente características sustentadas pela referência",
+      "não alterar características visíveis sem solicitação",
+      "incluir marcas e acessórios somente quando observáveis"
+    ]
+  },
+  "cena": {
+    "local": "interior doméstico junto a uma janela",
+    "ambiente": [
+      "parede clara visível",
+      "borda da janela no lado esquerdo do quadro"
+    ],
+    "atmosfera": "cotidiana e espontânea"
+  },
+  "iluminacao": {
+    "tipo": "luz diurna lateral suave",
+    "luz_principal": "janela à esquerda da câmera",
+    "luz_de_preenchimento": "reflexo ambiental discreto, estimado",
+    "contraste": "moderado, sombras graduais",
+    "evitar": [
+      "iluminação de estúdio não presente na referência",
+      "retoque excessivo",
+      "aparência artificial"
+    ]
+  },
+  "perspectiva_da_camera": {
+    "pov": "câmera frontal voltada para a pessoa",
+    "angulo": "ligeiramente acima dos olhos",
+    "distancia": "distância aproximada de braço estendido",
+    "visibilidade_do_celular": "fora do enquadramento"
+  },
+  "assunto": {
+    "genero_aparente": "não determinado",
+    "faixa_etaria_aparente": "não determinada",
+    "vibe": "casual e sem produção aparente",
+    "expressao": {
+      "olhos": "olhar dirigido à lente",
+      "boca": "relaxada, sem sorriso acentuado",
+      "emocao_aparente": "expressão visual neutra; estado psicológico não determinado"
+    },
+    "pose": {
+      "position": "tronco frontal com leve inclinação",
+      "apoio": "sentado com apoio fora do recorte, não detalhado",
+      "mao": "não distinguível no enquadramento"
+    },
+    "roupa": {
+      "blusa": {
+        "tipo": "camiseta cinza lisa",
+        "caimento": "relaxado com dobras suaves",
+        "detalhes": "tecido de aparência fosca"
+      },
+      "extra": []
+    }
+  },
+  "qualidade_da_imagem": {
+    "foco": "rosto em foco aparente",
+    "granulacao": "discreta, sem adicionar ruído forte",
+    "nitidez": "moderada",
+    "realismo": "aparência de fotografia casual real",
+    "artefatos_de_sensor": "não determinados",
+    "distorcao_de_lente": "leve perspectiva ampla sem distorção exagerada",
+    "pos_processamento": "natural, sem suavização plástica"
+  }
+}
